@@ -1,0 +1,22 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(to right, #a0323c, #c08026);
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 10px;
+}
