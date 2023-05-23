@@ -3,19 +3,25 @@
 }
 
 body{
-    height: 100%;
-    background: linear-gradient(to right, #a0323c, #c08026);
-    background-repeat: no-repeat;
     padding: 0;
     margin: 0;
+}
+
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #a0323c, #c08026);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container{
-    height: 500px;
-    width: 500px;
+.mainscreen{
+    height: 600px;
+    width: 350px;
     background-color: black;
     opacity: 50%;
     border-radius: 10px;
